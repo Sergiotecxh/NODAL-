@@ -1,0 +1,106 @@
+import type { Artist, Opportunity, City } from "./types";
+export const cityLabels: Record<City, string> = {
+  worldwide: "Worldwide",
+  ibiza: "Ibiza, España",
+  riviera: "Costa Azul, Francia",
+  tulum: "Tulum, México",
+  cdmx: "Ciudad de México",
+};
+// Editorial fixtures for this explicitly labeled visual preview. Not live content.
+export const opportunities: Opportunity[] = [
+  {
+    id: "balearic",
+    number: "01",
+    title: "A slower kind of sunset.",
+    venue: "Brisa — beach sessions",
+    city: "ibiza",
+    location: "Ibiza, España",
+    date: "21 JUN · 2027",
+    time: "18:00–20:00 · Europe/Madrid",
+    genre: "Afro house",
+    kind: "Beach club",
+    fee: "€350–500",
+    color: "blue",
+    description:
+      "Un warm-up que acompaña la caída del sol. Selecciones cálidas, percusión orgánica y espacio para que la música respire. Una sesión íntima junto al Mediterráneo.",
+    requirements: [
+      "Perfil profesional preparado",
+      "Un set publicado que represente tu sonido",
+      "Disponibilidad para viajar y condiciones por acordar",
+    ],
+    setRole: "Sunset / Warm-up",
+  },
+  {
+    id: "azur",
+    number: "02",
+    title: "Somewhere along the coast.",
+    venue: "Rivage — listening terrace",
+    city: "riviera",
+    location: "Costa Azul, Francia",
+    date: "28 JUN · 2027",
+    time: "17:00–19:00 · Europe/Paris",
+    genre: "Organic house",
+    kind: "Terraza",
+    fee: "€400–600",
+    color: "sage",
+    description:
+      "Texturas suaves y un ritmo que se construye sin prisa. Una propuesta de tarde frente al mar, pensada para un artista con una identidad musical reconocible.",
+    requirements: [
+      "Set de organic house",
+      "Rider técnico actualizado",
+      "Condiciones de viaje por confirmar",
+    ],
+    setRole: "Afternoon / Opening",
+  },
+  {
+    id: "tulum",
+    number: "03",
+    title: "Rooted in the rhythm.",
+    venue: "Selva — open air sessions",
+    city: "tulum",
+    location: "Tulum, México",
+    date: "05 JUL · 2027",
+    time: "16:00–18:00 · America/Cancun",
+    genre: "Melodic house",
+    kind: "Open air",
+    fee: "MX$5,000–8,000",
+    color: "aqua",
+    description:
+      "Melodías contenidas, energía cálida y una progresión que conecta con el espacio. Una sesión de tarde con atención al detalle y una producción cercana.",
+    requirements: [
+      "Set de melodic house",
+      "Disponibilidad para la fecha",
+      "Revisión conjunta del equipo",
+    ],
+    setRole: "Daytime / Sunset",
+  },
+];
+export const artists: Artist[] = [
+  {
+    id: "elena",
+    name: "Elena Sol",
+    city: "Ciudad de México",
+    genre: "Organic house",
+    initials: "ES",
+    color: "sage",
+    statement: "Ritmos orgánicos y paisajes que se sienten cerca.",
+  },
+  {
+    id: "mateo",
+    name: "Mateo Sur",
+    city: "Madrid, España",
+    genre: "Afro house",
+    initials: "MS",
+    color: "blue",
+    statement: "Percusión cálida para momentos que se quedan.",
+  },
+  {
+    id: "noa",
+    name: "Noa Mar",
+    city: "Niza, Francia",
+    genre: "Melodic house",
+    initials: "NM",
+    color: "aqua",
+    statement: "Entre melodías, luz y movimiento.",
+  },
+];
