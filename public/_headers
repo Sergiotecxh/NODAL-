@@ -2,5 +2,5 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin
   X-Frame-Options: DENY
-  Permissions-Policy: camera=(), microphone=(), geolocation=()
-  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'self'; frame-ancestors 'none'
+  Permissions-Policy: camera=(self), microphone=(), geolocation=(self)
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; media-src 'self' blob:; object-src 'none'; base-uri 'self'; frame-ancestors 'none'

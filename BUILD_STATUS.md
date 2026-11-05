@@ -1,36 +1,22 @@
-# BUILD_STATUS — Mediterranean visual proposal
+# Estado — NODAL Studio v3
 
-Fecha: 3 de noviembre de 2026. Esta entrega responde al rediseño visual solicitado: azul profundo, gris mineral, verde salvia y aqua, sin fotografías en esta etapa.
+Entrega revisada en noviembre de 2026. Alcance: prototipo web, no app nativa publicada.
 
-Los estados se refieren exclusivamente a este checkout de propuesta visual; no acreditan un marketplace de producción.
+| Área | Estado real |
+|---|---|
+| Seis destinos y diseño adaptable | Implementado: Inicio, Mensajes, Bookings, Discover, Servicios y Perfil. |
+| Presskit | Editable y persistido localmente; no hay perfil público compartido. |
+| Pasaporte | Portada, páginas y referencias cromáticas MX/US/Europa; sellos conceptuales. Documento profesional ficticio, sin validez oficial. |
+| Selfie | Cámara del navegador con consentimiento o archivo; recorte y eliminación de metadatos al generar imagen; sólo en memoria. Sin verificación biométrica. |
+| Mensajes y ubicación | Conversaciones de muestra locales. Geolocalización opcional y confirmación previa; sin envío a destinatarios. |
+| Moderación | Patrones para contactos y desvío de negocios; no IA ni protección completa. Falta moderación en servidor y apelación. |
+| Bookings | Filtros, búsqueda, guardados y creación local de eventos con Pro de muestra. Sin reservas ni publicación real. |
+| Discover | Enlaces a fuentes reales y agenda ficticia identificada. Sin servicio editorial automatizado. |
+| Servicios | Seis categorías y solicitud de muestra; no contratación real. |
+| Membresía | Demostración sin cobros. Autorización de producción pendiente. |
+| PDF | Siete páginas, presupuesto y competencia con límites de evidencia; escenarios, no promesas. |
+| iOS/Android, backend y pagos | Pendientes. No se han generado binarios ni publicado en tiendas. |
 
-| Área | Estado | Alcance |
-|---|---|---|
-| Dirección visual, tipografía y arte original | Working | Diseño luminoso, formas CSS/SVG, fuentes locales y movimiento ambiental reducido por preferencias. |
-| Cinco pantallas principales | Working | Inicio, Bookings, Discover, Servicios y Perfil; escritorio y móvil. |
-| Navegación, filtros y guardados | Working | Comportamiento del prototipo; guardados sólo en el navegador. |
-| Perfil editable y preferencias | Working | Datos locales; no crea cuentas ni comparte perfiles. |
-| Detalles y solicitud | Mocked | Oportunidades ficticias y Quick Apply explícitamente simulado; no se envía una solicitud real. |
-| Artistas, venues, honorarios y fechas | Mocked | Ejemplos editoriales claramente identificados, sin actividad profesional afirmada como real. |
-| Mensajes, notificaciones y Services | Partial | Tratamiento visual e información de alcance, sin envío ni contratación. |
-| Fotografía y escenas de IA | Not built | Diferidas a petición del usuario. No se generaron fotos. |
-| Apps nativas iOS/Android | Not built | Siguen siendo requisito del producto final; este prototipo web no las sustituye. |
-| Backend, identidad y booking real | Not built | No están implementados en esta propuesta visual. |
-| Prompt para Figma | Working | Documento disponible; no se editó un archivo de Figma conectado ni se accedió a Casa Vista. |
-| Compilación estática | Working | Vite/React; dist preparado como propuesta visual para Netlify Drop. |
+Verificación ejecutada: TypeScript, compilación y **9/9 pruebas de navegador** contra la compilación estática. **19 auditorías axe**, sin infracciones en las reglas seleccionadas; seis destinos a 1440/390/320 px y pasaporte móvil. Incluye captura de cámara emulada, consentimiento, filtro de mensajes y ubicación, persistencia local, preferencias corruptas, enlace PDF y ausencia de POST en chat de muestra. No acredita seguridad de producción, dispositivos físicos ni cumplimiento WCAG completo.
 
-## Verificación
-
-- Instalación congelada con `npm ci` repetida correctamente.
-- TypeScript y compilación completados.
-- Suite final sobre la compilación estática: **9/9 pruebas**, sin omisiones. Navegación, combinación de filtros, guardados, detalle/foco, simulación sin POST, perfil local, preferencias y recuperación de una búsqueda sin resultados.
-- **17 auditorías axe** sin infracciones detectadas en las reglas seleccionadas: cinco pantallas a 1440, 390 y 320 px, más dos diálogos. No equivale a una auditoría WCAG completa ni a pruebas de dispositivos nativos.
-- Capturas revisadas en escritorio y móvil; corregidos textos demasiado pequeños, contenido comprimido, contraste y pérdida de foco.
-- Scripts de instalación y arranque actualizados en el borrador del entorno para este prototipo. Guardar el borrador no publica ni valida restauración en una tarea nueva.
-
-## Entrega
-
-- `NODAL_DESIGN_NETLIFY_DROP.zip`: compilación visual, con index.html en la raíz. Descomprimir y arrastrar la carpeta resultante a Netlify Drop.
-- `NODAL_DESIGN_SOURCE.zip`: código, documentación y pruebas, sin dependencias instaladas, credenciales ni configuración privada.
-
-Publicar el ZIP visual no activa autenticación, base de datos, ofertas, reservas, pagos o notificaciones. Las imágenes se trabajarán aparte, como se solicitó.
+La configuración Netlify compila hacia `dist`. El despliegue y URL pública deben confirmarse en la cuenta de Netlify; GitHub actualizado no acredita publicación exitosa.

@@ -5,3 +5,8 @@ dist/
 !.env.example
 test-results/
 playwright-report/
+
+# Local research captures: retain evidence locally without republishing full pages.
+research/*
+!research/access-log.txt
+!research/sources.json

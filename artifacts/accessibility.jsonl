@@ -1,17 +1,19 @@
-{"url":"http://127.0.0.1:4173/","viewport":{"width":1440,"height":1050},"test":"contextual details close on Escape and return keyboard focus","violations":[]}
-{"url":"http://127.0.0.1:4173/","viewport":{"width":1440,"height":1050},"test":"the editable profile persists in this browser and does not create an account","violations":[]}
-{"url":"http://127.0.0.1:4173/","viewport":{"width":1440,"height":1050},"test":"desktop and mobile routes retain readable layout and basic accessibility","violations":[]}
-{"url":"http://127.0.0.1:4173/#bookings","viewport":{"width":1440,"height":1050},"test":"desktop and mobile routes retain readable layout and basic accessibility","violations":[]}
-{"url":"http://127.0.0.1:4173/#discover","viewport":{"width":1440,"height":1050},"test":"desktop and mobile routes retain readable layout and basic accessibility","violations":[]}
-{"url":"http://127.0.0.1:4173/#services","viewport":{"width":1440,"height":1050},"test":"desktop and mobile routes retain readable layout and basic accessibility","violations":[]}
-{"url":"http://127.0.0.1:4173/#profile","viewport":{"width":1440,"height":1050},"test":"desktop and mobile routes retain readable layout and basic accessibility","violations":[]}
-{"url":"http://127.0.0.1:4173/","viewport":{"width":390,"height":844},"test":"desktop and mobile routes retain readable layout and basic accessibility","violations":[]}
-{"url":"http://127.0.0.1:4173/#bookings","viewport":{"width":390,"height":844},"test":"desktop and mobile routes retain readable layout and basic accessibility","violations":[]}
-{"url":"http://127.0.0.1:4173/#discover","viewport":{"width":390,"height":844},"test":"desktop and mobile routes retain readable layout and basic accessibility","violations":[]}
-{"url":"http://127.0.0.1:4173/#services","viewport":{"width":390,"height":844},"test":"desktop and mobile routes retain readable layout and basic accessibility","violations":[]}
-{"url":"http://127.0.0.1:4173/#profile","viewport":{"width":390,"height":844},"test":"desktop and mobile routes retain readable layout and basic accessibility","violations":[]}
-{"url":"http://127.0.0.1:4173/","viewport":{"width":320,"height":844},"test":"desktop and mobile routes retain readable layout and basic accessibility","violations":[]}
-{"url":"http://127.0.0.1:4173/#bookings","viewport":{"width":320,"height":844},"test":"desktop and mobile routes retain readable layout and basic accessibility","violations":[]}
-{"url":"http://127.0.0.1:4173/#discover","viewport":{"width":320,"height":844},"test":"desktop and mobile routes retain readable layout and basic accessibility","violations":[]}
-{"url":"http://127.0.0.1:4173/#services","viewport":{"width":320,"height":844},"test":"desktop and mobile routes retain readable layout and basic accessibility","violations":[]}
-{"url":"http://127.0.0.1:4173/#profile","viewport":{"width":320,"height":844},"test":"desktop and mobile routes retain readable layout and basic accessibility","violations":[]}
+{"label":"Inicio-1440","violations":[]}
+{"label":"Mensajes-1440","violations":[]}
+{"label":"Bookings-1440","violations":[]}
+{"label":"Discover-1440","violations":[]}
+{"label":"Servicios-1440","violations":[]}
+{"label":"Perfil-1440","violations":[]}
+{"label":"Inicio-390","violations":[]}
+{"label":"Mensajes-390","violations":[]}
+{"label":"Bookings-390","violations":[]}
+{"label":"Discover-390","violations":[]}
+{"label":"Servicios-390","violations":[]}
+{"label":"Perfil-390","violations":[]}
+{"label":"Inicio-320","violations":[]}
+{"label":"Mensajes-320","violations":[]}
+{"label":"Bookings-320","violations":[]}
+{"label":"Discover-320","violations":[]}
+{"label":"Servicios-320","violations":[]}
+{"label":"Perfil-320","violations":[]}
+{"label":"Passport-mobile","violations":[]}

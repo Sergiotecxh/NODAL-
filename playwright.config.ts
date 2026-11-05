@@ -13,7 +13,12 @@ export default defineConfig({
     viewport: { width: 1440, height: 1050 },
     launchOptions: {
       executablePath: "/usr/bin/chromium",
-      args: ["--no-sandbox", "--disable-dev-shm-usage"],
+      args: [
+        "--no-sandbox",
+        "--disable-dev-shm-usage",
+        "--use-fake-device-for-media-stream",
+        "--use-fake-ui-for-media-stream",
+      ],
     },
     trace: "retain-on-failure",
     screenshot: "only-on-failure",

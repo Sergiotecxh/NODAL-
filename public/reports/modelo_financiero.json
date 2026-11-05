@@ -1,0 +1,58 @@
+{
+  "as_of": "2026-11-04",
+  "currency": "MXN",
+  "exchange_mxn_per_usd_assumption": 18,
+  "subscription_gross": 149,
+  "vat_assumption": 0.16,
+  "store_commission_assumption": 0.15,
+  "net_per_sub_before_operations": 109.18103448275863,
+  "scenarios": [
+    {
+      "label": "Austero",
+      "hours": 700,
+      "rate": 400,
+      "build": 280000,
+      "cont": 42000.0,
+      "infra": 1000,
+      "maintenance": 6000,
+      "accounting": 800,
+      "stores": 4014,
+      "domain": 1000,
+      "legal": 15000,
+      "marketing": 40000,
+      "total": 569214.0
+    },
+    {
+      "label": "Base",
+      "hours": 1000,
+      "rate": 500,
+      "build": 500000,
+      "cont": 75000.0,
+      "infra": 2500,
+      "maintenance": 12000,
+      "accounting": 1500,
+      "stores": 4014,
+      "domain": 1000,
+      "legal": 25000,
+      "marketing": 80000,
+      "total": 1069014.0
+    },
+    {
+      "label": "Cobertura",
+      "hours": 1500,
+      "rate": 600,
+      "build": 900000,
+      "cont": 135000.0,
+      "infra": 6000,
+      "maintenance": 25000,
+      "accounting": 2500,
+      "stores": 4014,
+      "domain": 1000,
+      "legal": 40000,
+      "marketing": 160000,
+      "total": 2044014.0
+    }
+  ],
+  "not_market_quote": true,
+  "no_revenue_verified": true
+}

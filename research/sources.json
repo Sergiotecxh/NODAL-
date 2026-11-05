@@ -1,0 +1,51 @@
+{
+  "consulted": "2026-11-03",
+  "note": "Status distinguishes observed sources from inaccessible references. No competitor active-user counts or production database architecture verified.",
+  "sources": [
+    {
+      "status": "S1 · Verificado",
+      "description": "Supabase, archivo oficial de planes, precio Pro USD25 y backups.",
+      "url": "https://github.com/supabase/supabase/blob/master/packages/shared-data/plans.ts"
+    },
+    {
+      "status": "S2 · Verificado",
+      "description": "Gigwell, precios y catálogo. Facturación y productos deben distinguirse.",
+      "url": "https://www.gigwell.com/pricing"
+    },
+    {
+      "status": "S3 · Verificado parcialmente",
+      "description": "Gigstarter: descripción de catálogo; sin precio/MAU verificados.",
+      "url": "https://www.gigstarter.com/"
+    },
+    {
+      "status": "S4 · Indicio, no producción confirmada",
+      "description": "Código público de herramientas Gigwell/Mongoose.",
+      "url": "https://github.com/gigwell/nerm"
+    },
+    {
+      "status": "S5 · No accesible; confirmar",
+      "description": "Apple Developer, inscripción y membresía. Referencia histórica USD99/año.",
+      "url": "https://developer.apple.com/support/compare-memberships/"
+    },
+    {
+      "status": "S6 · No accesible; confirmar",
+      "description": "Google Play, inscripción. Referencia histórica USD25 una vez.",
+      "url": "https://support.google.com/googleplay/android-developer/answer/6112435"
+    },
+    {
+      "status": "S7 · No accesible; confirmar",
+      "description": "SAT: RFC, e.firma, regímenes y obligaciones.",
+      "url": "https://www.sat.gob.mx/"
+    },
+    {
+      "status": "S8 · No accesible; confirmar",
+      "description": "IMPI, registro y búsqueda de marca.",
+      "url": "https://www.gob.mx/impi/acciones-y-programas/registro-de-marcas"
+    },
+    {
+      "status": "S9 · No accesible; confirmar",
+      "description": "Texto oficial de datos personales y versión vigente.",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf"
+    }
+  ]
+}
